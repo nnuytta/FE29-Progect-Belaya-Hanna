@@ -1,0 +1,48 @@
+.pricing-options-section {
+    background: #F5F5F5;
+}
+
+.pricing-list {
+    width: 340px;
+    margin: 0 15px;
+}
+
+.pricing-list li {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.tariff, .price, .period {
+    background: #333333;
+}
+
+.tariff {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #fff;
+}
+
+.price {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
+}
+
+.period {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.option {
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #86878B;
+    margin: 4px 0;
+}
