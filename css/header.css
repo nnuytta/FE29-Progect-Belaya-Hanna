@@ -9,20 +9,20 @@
     padding: 20px 0;
 }
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
 .logo::after {
-    content: "";
-    display: block;
-    width: 68px;
-    height: 31px;
-    background-image: url('../images/logo.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    content: "IT";
+    color: #EC7979;
 }
 
 .menu-list {
     display: flex;
-    /* align-items: flex-end; */
 }
 
 .menu-list li {
