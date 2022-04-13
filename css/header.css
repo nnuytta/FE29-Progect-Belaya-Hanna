@@ -1,0 +1,44 @@
+.header {
+    background: #000;
+}
+
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo::after {
+    content: "";
+    display: block;
+    width: 68px;
+    height: 31px;
+    background-image: url('../images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu-list {
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+.menu-list li {
+    margin-left: 48px;
+}
+
+.menu-list li:first-child {
+    margin-left: 0;
+}
+
+.menu-list a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-list a:hover {
+    border-bottom: 3px solid #E72424;
+}

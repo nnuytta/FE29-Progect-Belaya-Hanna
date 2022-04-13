@@ -1,0 +1,32 @@
+.social-section {
+    background: #F8EFEF;
+    padding: 14px 0;
+}
+
+.social-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.title-container, .icons {
+    margin: 0 15px;
+}
+
+.subtitle {
+    width: 365px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.icons i {
+    font-size: 42px;
+    color: #cccccc;
+    margin-left: 70px;
+}
+
+.icons i:first-child {
+    margin-left: 0;
+}
