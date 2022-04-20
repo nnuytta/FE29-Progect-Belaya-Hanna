@@ -1,10 +1,12 @@
 @import url('../css/cdn.css');
 @import url('../css/header.css');
+@import url('../css/axit.css');
 @import url('../css/social.css');
 @import url('../css/awesomeCard.css');
 @import url('../css/pricingOptions.css');
 @import url('../css/customers.css');
 @import url('../css/axure.css');
+@import url('../css/contact.css');
 @import url('../css/footer.css');
 
 * {
@@ -21,6 +23,10 @@ html {
 
 section {
     padding: 80px 0;
+}
+
+button, input[type="button"] {
+    cursor: pointer;
 }
 
 .container {

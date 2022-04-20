@@ -1,0 +1,133 @@
+.axit-section {
+    background: url('../images/background2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 98px 0;
+    position: relative;
+}
+
+.axit-section::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: hsla(0, 0%, 0%, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.axit-container {
+    max-width: 544px;
+    margin: 0 15px;
+}
+
+.axit-main-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 42px;
+}
+
+.axit-main-title::after {
+    content: 'IT';
+    color: #EC7979;
+}
+
+.axit-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.axit-title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin: 34px 0;
+}
+
+.axit-subtitle p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.axit-subtitle {
+    max-width: 282px;
+    margin-bottom: 39px;
+}
+
+.axit-btn {
+    width: 135px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.axit-form {
+    width: 370px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 15px;
+}
+
+.form-title p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 56px;
+    display: block;
+    text-align: center;
+}
+
+.form-title {
+    margin-bottom: 50px;
+}
+
+.free {
+    color: #EC7979;
+}
+
+.form-item input {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    background: transparent;
+    font-size: 19px;
+    color: #333333;
+}
+
+.form-item label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 19px 0;
+    padding: 0 59px;
+}
+
+.axit-form-btn {
+    width: 370px;
+    border: 0;
+    background: #EC7979;
+    border-radius: 0 0 8px 8px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 53px;
+    color: #fff;
+    margin-top: 50px;
+}
