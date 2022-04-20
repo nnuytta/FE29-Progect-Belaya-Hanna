@@ -37,6 +37,14 @@ button, input[type="button"] {
     z-index: 2;
 }
 
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+    /* flex-wrap: wrap; */
+}
+
 .title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
