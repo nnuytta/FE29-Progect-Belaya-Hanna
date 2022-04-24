@@ -2,6 +2,7 @@
 @import url('../css/header.css');
 @import url('../css/axit.css');
 @import url('../css/social.css');
+@import url('../css/tabs.css');
 @import url('../css/awesomeCard.css');
 @import url('../css/pricingOptions.css');
 @import url('../css/customers.css');
@@ -27,6 +28,7 @@ section {
 
 button, input[type="button"] {
     cursor: pointer;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -42,7 +44,6 @@ button, input[type="button"] {
     justify-content: space-between;
     align-items: center;
     margin: 0 -15px;
-    /* flex-wrap: wrap; */
 }
 
 .title {
